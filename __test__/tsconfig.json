@@ -1,11 +1,13 @@
 {
   "exclude": ["node_modules", "build"],
-  "compilerOptions": {
+  "compilerOptions": 
+  {
     "target": "es2016",
     "lib": ["es6"],
     "module": "commonjs",
     "baseUrl": "./",
-    "paths": {
+    "paths": 
+    {
       "@/*": ["../src/*"]
     },
     "resolveJsonModule": true,
